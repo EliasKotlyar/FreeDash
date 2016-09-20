@@ -24,7 +24,9 @@ SPI Flash:
 [Micron N25Q032 ](https://www.micron.com/~/media/documents/products/data-sheet/nor-flash/serial-nor/n25q/n25q_32mb_3v_65nm.pdf)
 
 Headers:[AXE510127 ](http://www.mouser.com/ds/2/316/con_eng_a4s-974509.pdf)
-## Testpoints:
+
+
+## Testpoints on Board:
 
 TX18 – SWDIO
 
@@ -41,10 +43,13 @@ TX16 – UART TX
 TX15 – UART RX
 
 ## Hardware required for debugging:
-- JTAG Debugger( ST-Link V2,J-Link etc)
+- JTAG Debugger -  Segger J-Link
 - AXE510127/AXE610124 Headers
 - Wires
-- [Debug Adapter Breakout](https://oshpark.com/shared_projects/aihei61r)
+- Debug Adapter[[Version aihei61r]](https://oshpark.com/shared_projects/aihei61r)
+[[Version nqbit]](https://github.com/nqbit/kicad-boards/tree/master/dash_connector)
+
+
 
 
 
@@ -56,6 +61,6 @@ TX15 – UART RX
 
 [Amazon Dash: Does anyone hacked it?](https://community.particle.io/t/amazon-dash-anyone-hacked-it/14303/26)
 
-
-
 [ReDash](https://github.com/gtalusan/redash)
+
+[Amazon Dash Version 2](http://key-basher.blogspot.de/2016/09/amazon-dash-button-version-2.html)
